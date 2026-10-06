@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Shimmer skeleton — mirrors custom_item_dashboard_hotels.xml exactly -->
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmerHotels"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:shimmer_auto_start="true"
+        app:shimmer_base_color="#1A2744"
+        app:shimmer_highlight_color="#243360"
+        app:shimmer_duration="1000"
+        app:shimmer_direction="left_to_right">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Card 1 — same shape as real hotel card -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_card_hotel_dashboard">
+
+                <!-- Image placeholder (same size as ShapeableImageView) -->
+                <View
+                    android:layout_width="128dp"
+                    android:layout_height="128dp"
+                    android:background="@drawable/custom_card_hotel_dashboard"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <!-- Hotel name -->
+                <View
+                    android:layout_width="100dp"
+                    android:layout_height="12dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/shimmer_line_rounded"
+                    app:layout_constraintStart_toEndOf="@id/shimmer_img"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <!-- Location text -->
+                <View
+                    android:layout_width="140dp"
+                    android:layout_height="10dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/shimmer_line_rounded"
+                    app:layout_constraintStart_toEndOf="@id/shimmer_img"
+                    app:layout_constraintTop_toBottomOf="@id/shimmer_name" />
+
+                <!-- Price -->
+                <View
+                    android:layout_width="60dp"
+                    android:layout_height="12dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/shimmer_line_rounded"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/shimmer_img" />
+
+                <!-- Anchor views for constraints -->
+                <View
+                    android:id="@+id/shimmer_img"
+                    android:layout_width="128dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <View
+                    android:id="@+id/shimmer_name"
+                    android:layout_width="100dp"
+                    android:layout_height="12dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintStart_toEndOf="@id/shimmer_img"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- Card 2 -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_card_hotel_dashboard">
+
+                <View
+                    android:layout_width="128dp"
+                    android:layout_height="128dp"
+                    android:background="@drawable/custom_card_hotel_dashboard"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+</layout>

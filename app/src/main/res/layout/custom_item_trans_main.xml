@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/custom_card_trans_dashboard"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/appCompatImageButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/custom_trans_card_plan"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/trans_plan" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout7"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/custom_trans_card_price"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingHorizontal="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/plus_jakarta_sans_bold"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/trans_card_plan_text"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toEndOf="@+id/appCompatImageView5"
+                    app:layout_constraintTop_toBottomOf="@+id/textView16"
+                    tools:text="18000$" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/startAirPort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/plus_jakarta_sans_extrabold"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/appCompatImageButton"
+                tools:text="LHR" />
+
+            <TextView
+                android:id="@+id/startAirPortName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/plus_jakarta_sans_medium"
+                android:minLines="2"
+                android:textAlignment="textStart"
+                android:textColor="@color/des_text_color_2"
+                android:textSize="11sp"
+                app:layout_constraintEnd_toStartOf="@+id/transIcon"
+                app:layout_constraintStart_toStartOf="@+id/startAirPort"
+                app:layout_constraintTop_toBottomOf="@+id/startAirPort"
+                tools:text="LONDON" />
+
+            <TextView
+                android:id="@+id/destinationAirPort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/plus_jakarta_sans_extrabold"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout7"
+                tools:text="HND" />
+
+
+            <TextView
+                android:id="@+id/destinationAirPortName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/plus_jakarta_sans_medium"
+                android:minLines="2"
+                android:textAlignment="textEnd"
+                android:textColor="@color/des_text_color_2"
+                android:textSize="11sp"
+                app:layout_constraintEnd_toEndOf="@+id/destinationAirPort"
+                app:layout_constraintStart_toEndOf="@+id/transIcon"
+                app:layout_constraintTop_toBottomOf="@+id/destinationAirPort"
+                tools:text="TOKYO" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/destinationAirPortName">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_trans_card_duration"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/destinationAirPortName">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:fontFamily="@font/plus_jakarta_sans_medium"
+                        android:text="@string/depart"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/hint"
+                        android:textSize="11sp"
+                        app:layout_constraintEnd_toEndOf="@+id/startAirPort"
+                        app:layout_constraintStart_toStartOf="@+id/startAirPort"
+                        app:layout_constraintTop_toBottomOf="@+id/startAirPort" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="4dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/destinationAirPortName">
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="6dp"
+                            android:background="@drawable/custom_trans_card_plan"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/trans_date" />
+
+                        <TextView
+                            android:id="@+id/startDate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/plus_jakarta_sans_medium"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/white"
+                            android:textSize="11sp"
+                            app:layout_constraintEnd_toEndOf="@+id/startAirPort"
+                            app:layout_constraintStart_toStartOf="@+id/startAirPort"
+                            app:layout_constraintTop_toBottomOf="@+id/startAirPort"
+                            tools:text="16 AUG" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_trans_card_duration"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/destinationAirPortName">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:fontFamily="@font/plus_jakarta_sans_medium"
+                        android:text="@string/duration"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/hint"
+                        android:textSize="11sp"
+                        app:layout_constraintEnd_toEndOf="@+id/startAirPort"
+                        app:layout_constraintStart_toStartOf="@+id/startAirPort"
+                        app:layout_constraintTop_toBottomOf="@+id/startAirPort" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="4dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/destinationAirPortName">
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="6dp"
+                            android:background="@drawable/custom_trans_card_plan"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/trans_clock" />
+
+                        <TextView
+                            android:id="@+id/duration"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/plus_jakarta_sans_medium"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/white"
+                            android:textSize="11sp"
+                            app:layout_constraintEnd_toEndOf="@+id/startAirPort"
+                            app:layout_constraintStart_toStartOf="@+id/startAirPort"
+                            app:layout_constraintTop_toBottomOf="@+id/startAirPort"
+                            tools:text="7h 15m" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/btnBook"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/custom_trans_button"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout8">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/plus_jakarta_sans_semibold"
+                    android:text="@string/book_flight"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="2dp"
+                    android:contentDescription="@string/no_image"
+                    app:srcCompat="@drawable/trans_right_arrow" />
+
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/horLine"
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/custom_plane_hor_line"
+                app:layout_constraintBottom_toBottomOf="@+id/startAirPort"
+                app:layout_constraintEnd_toStartOf="@+id/destinationAirPort"
+                app:layout_constraintStart_toEndOf="@+id/startAirPort" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/transIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/no_image"
+                app:layout_constraintBottom_toBottomOf="@+id/horLine"
+                app:layout_constraintEnd_toEndOf="@+id/horLine"
+                app:layout_constraintStart_toStartOf="@+id/horLine"
+                app:layout_constraintTop_toTopOf="@+id/horLine"
+                app:srcCompat="@drawable/trans_plane_des" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

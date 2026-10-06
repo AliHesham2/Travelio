@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Shimmer skeleton — mirrors custom_item_trip_main.xml (320×480dp CardView r=32dp) -->
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmerTrips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:shimmer_auto_start="true"
+        app:shimmer_base_color="#1A2744"
+        app:shimmer_highlight_color="#243360"
+        app:shimmer_duration="1000"
+        app:shimmer_direction="left_to_right">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:orientation="horizontal">
+
+            <!-- Card 1 — same shape as real trip card (320dp wide, 32dp corner radius) -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="320dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="32dp"
+                app:cardBackgroundColor="#1A2744"
+                app:cardElevation="0dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <!-- Full image placeholder -->
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#1A2744" />
+
+                    <!-- Trip name line -->
+                    <View
+                        android:id="@+id/sh_trip_name"
+                        android:layout_width="140dp"
+                        android:layout_height="24dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/shimmer_line_rounded"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <!-- Location line -->
+                    <View
+                        android:layout_width="100dp"
+                        android:layout_height="12dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginBottom="52dp"
+                        android:background="@drawable/shimmer_line_rounded"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <!-- Price pill -->
+                    <View
+                        android:layout_width="100dp"
+                        android:layout_height="38dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginBottom="72dp"
+                        android:background="@drawable/shimmer_line_rounded"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <!-- Arrow button -->
+                    <View
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="32dp"
+                        android:background="@drawable/shimmer_line_rounded"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Card 2 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="320dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="32dp"
+                app:cardBackgroundColor="#1A2744"
+                app:cardElevation="0dp" />
+
+        </LinearLayout>
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+</layout>

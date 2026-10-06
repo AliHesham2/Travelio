@@ -1,0 +1,319 @@
+<resources>
+    <string name="app_name">Travelio</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Preferences "no translate" -->
+    <string name="TOKEN_SAVED_AT" translatable="false">_To_ken_</string>
+    <string name="TOKEN_DEVICE_SAVED_AT" translatable="false">_De_vice_</string>
+    <string name="Language_SAVED_AT" translatable="false">_Language_</string>
+
+    <!-- WebLinks "no translate" -->
+    <string name="PHOTO_LINK" translatable="false">https://res.cloudinary.com/hatravel/image/upload/v1636822208/</string>
+    <string name="PHOTO_Default_LINK" translatable="false">https://i.ibb.co/Vmw0Ybk/image-not-found.png</string>
+
+    <!-- Notifications "no translate"-->
+    <string name="CHANNEL_ID" translatable="false">TravelioID</string>
+    <string name="CHANNEL_NAME" translatable="false">Travelio</string>
+    <string name="HOTEL" translatable="false">hotel</string>
+    <string name="TRANSPORT" translatable="false">transport</string>
+    <string name="TRIPS" translatable="false">trip</string>
+    <string name="PACKAGE" translatable="false">package</string>
+    <string name="HOTEL_RESERVATION" translatable="false">Hotel Reservation</string>
+    <string name="TRANSPORT_RESERVATION" translatable="false">Transport Reservation</string>
+    <string name="TRIPS_RESERVATION" translatable="false">Trip Reservation</string>
+    <string name="PACKAGE_RESERVATION" translatable="false">Package Reservation</string>
+    <string name="RESERVATION_MSG" translatable="false">A user want to reserve </string>
+
+    <!-- Static In Code "no translate"-->
+    <string name="DATA" translatable="false">data</string>
+    <string name="USER" translatable="false">UserData</string>
+    <string name="TOKEN" translatable="false">token</string>
+    <string name="MESSAGE" translatable="false">message</string>
+    <string name="_0" translatable="false">0</string>
+    <string name="_1" translatable="false">1</string>
+    <string name="DATE_FORM" translatable="false">yyyy-MM-dd</string>
+    <string name="DEFAULT_VALUE" translatable="false">0</string>
+    <string name="MAX_PRICE" translatable="false">20000</string>
+    <string name="RATING_DEFAULT" translatable="false">0.0</string>
+    <string name="EMPTY" translatable="false"> </string>
+    <string name="EMPTY_WITH_SPACE" translatable="false">" "</string>
+    <string name="Currency" translatable="false">EGP</string>
+    <string name="PATCH" translatable="false">patch</string>
+    <string name="TYPE_NAVIGATION" translatable="false">type</string>
+    <string name="Current_NAVIGATION" translatable="false">current</string>
+    <string name="FOREGROUND" translatable="false">foreGround</string>
+
+    <!--- Code Views "possible to translate" -->
+    <!-- Dialogue "possible to translate"-->
+
+    <!-- Session Expired -->
+    <string name="title">Session Expired</string>
+    <string name="supporting_text">Please, Login again</string>
+    <string name="submit">OK</string>
+    <!-- Booking -->
+    <string name="offer">Person per offer</string>
+    <string name="Quantity">Quantity</string>
+    <string name="ok">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="order_sent">Order sent successfully</string>
+    <!-- Orders -->
+    <string name="MSG">Do u want to delete this order ?</string>
+    <!-- ChangeLanguage -->
+    <string name="change_language">Change Language</string>
+    <string name="ENGLISH" translatable="false">en</string>
+    <string name="Arabic" translatable="false">ar</string>
+    <!-- End -->
+
+    <!-- Util Binding "possible to translate"-->
+    <string name="LE">LE</string>
+    <string name="ACCEPTED" translatable="false">Done</string>
+    <string name="REJECTED" translatable="false">Refused</string>
+    <string name="PENDING" translatable="false">Pending</string>
+    <!-- Hotels -->
+    <string name="PER_PERSON">per person</string>
+    <!-- Transport -->
+    <string name="CLASS">Class: </string>
+    <string name="TO">To: </string>
+    <string name="FROM">From: </string>
+    <!-- END -->
+
+    <!-- Tabs "possible to translate" -->
+    <string name="RECENT">Recent Orders</string>
+    <string name="EXPIRED">Expired Orders</string>
+    <string name="Server_error">Something went wrong on our end. Please try again later. If the problem persists, contact support for assistance.</string>
+    <string name="Network_error">It seems there’s a problem with your internet connection. Please check your network and try again.</string>
+    <string name="search_not_found">No data available at the moment. Please try again later or adjust your search criteria.</string>
+    <string name="try_again">Try Again</string>
+
+    <!-- Toast "possible to translate"-->
+    <string name="INVALID_NUMBER">quantity can not be less than or equal 0</string>
+    <string name="BOOKING_DONE">Done</string>
+    <string name="Updated">Updated</string>
+    <string name="Password_changed">Password_changed</string>
+    <string name="CHECK_PRICE">Check Price Range</string>
+    <string name="CHECK_PERSON">per person must be more than  0</string>
+    <string name="DATE_PASSED">The date has already passed</string>
+
+    <!--Code Errors "possible to translate"-->
+    <string name="INVALID_EMAIL_FORM">Invalid email</string>
+    <string name="NO_EMAIL">Enter email please</string>
+    <string name="INVALID_PASSWORD">At least 8 characters</string>
+    <string name="NO_PASSWORD">Enter password please</string>
+    <string name="INVALID_PHONE">Should be  11 numbers</string>
+    <string name="NO_PHONE">Enter phone please</string>
+    <string name="INVALID_NAME">At least 3 characters</string>
+    <string name="NO_NAME">Enter full name please</string>
+    <string name="NO_DATA">Please fill all fields!</string>
+    <string name="NO_INTERNET">Network Error</string>
+    <string name="WRONG">SomeThing Went Wrong</string>
+    <string name="PASSWORD_SAME">Both passwords must be the same</string>
+    <string name="UN_KNOW_VIEW_MODEL" translatable="false">Unknown ViewModel class</string>
+    <string name="FROM_LIST">Please select from list</string>
+    <string name="Sign_out_again">Please check internet and sign out again.</string>
+    <string name="accountDeleted">Your account has been deleted.</string>
+    <string name="edit_success">Your data has been updated.</string>
+    <string name="email_sent">Email sent successfully.</string>
+    <string name="cant_less_than_0">Cannot be less than 0</string>
+    <string name="cant_less_than_1">Cannot be less than 1</string>
+    <string name="cant_more_than_20000">Cannot be more than 20000</string>
+    <string name="invalid_range">Invalid price range</string>
+    <string name="valid_number">Enter valid number</string>
+    <string name="in_valid_number">Invalid number</string>
+    <!-- End -->
+
+    <!--- App Views "possible to translate" -->
+    <string name="name_app" translatable="false">Travelio</string>
+    <string name="just_photo" translatable="false">JustPhoto</string>
+
+    <!-- Login  && SignUp && edit && changePassword -->
+    <string name="password">Password</string>
+    <string name="phone">Phone</string>
+
+
+    <!-- edit && changePassword -->
+    <string name="submit_button">Submit</string>
+    <string name="log_out">Log out</string>
+    <!-- edit -->
+    <string name="edit_profile">EditProfile</string>
+    <!-- changePassword -->
+    <string name="change_password">Change Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <!-- END -->
+
+    <!-- Login -->
+    <string name="sign_in_button">Sign In</string>
+    <string name="forgotten_password">Forgot Password ?</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="register_here">Register</string>
+    <string name="or_continue_with">OR CONTINUE WITH</string>
+
+    <!-- SignUp && edit && changePassword-->
+    <string name="login_here">Login</string>
+    <string name="welcome">Welcome</string>
+    <string name="sign_up_button">Sign Up</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="city">City</string>
+    <string name="Code">Code</string>
+
+    <!-- Drawer Texts && Bottom Navigation Texts-->
+    <string name="full_trip_package">Full trip package</string>
+    <string name="requests">Requests</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="delete_Account">Delete account</string>
+
+    <!-- Trips -->
+    <string name="trips">Trips</string>
+    <string name="no_trips_found">No Trips Found</string>
+
+    <!-- Hotels -->
+    <string name="hotels">Hotels</string>
+    <string name="no_hotels_found">No Hotels Found</string>
+    <string name="per_room">Per Room</string>
+    <string name="per_offer">Person per offer</string>
+    <string name="reserve_date">Reservation date:</string>
+    <string name="totalPrice">Total price:</string>
+    <string name="status">Status: </string>
+
+    <!-- Package -->
+    <string name="full_package">Full Package</string>
+    <string name="no_package_found">No Package Found</string>
+
+    <!-- Transports -->
+    <string name="transportation">Transports</string>
+    <string name="transportations">Transportations</string>
+    <string name="no_transport_found">No Transport Found</string>
+    <!-- End -->
+
+    <!-- Single Reserve  && Orders-->
+    <string name="no_image">No Image</string>
+    <string name="book_now">Book Now</string>
+    <string name="company_details">Company Details</string>
+    <string name="reserve_details">Reserve Details</string>
+    <!--Orders -->
+    <string name="no_orders_yet">No reservation yet</string>
+    <string name="no_orders_exp_yet">No expired reservation yet</string>
+    <string name="quantity">Quantity:</string>
+    <string name="price">price:</string>
+    <!--Trips -->
+    <string name="trip_details">Trip Details</string>
+    <string name="trip_pictures">Trip Pictures</string>
+    <!-- Hotels -->
+    <string name="hotel_details">Hotel Details</string>
+    <string name="hotel_pictures">Hotel Pictures</string>
+    <!-- Package -->
+    <string name="package_details">Package Details</string>
+    <!-- Transports -->
+    <string name="transport_pictures">Transport Pictures</string>
+    <string name="transport_details">Transport Details</string>
+    <!-- End -->
+
+    <!-- Filters-->
+    <string name="reset_all">Reset All</string>
+    <string name="close">Close</string>
+    <string name="filters">Filter</string>
+    <string name="filter_submit">submit</string>
+    <string name="city_filter">City</string>
+    <string name="price_filter">Price</string>
+    <string name="from_filter">From</string>
+    <string name="to_filter">To</string>
+    <string name="date_filter">Date</string>
+    <string name="hotel_name">Hotel Name</string>
+    <string name="location_filter">Location</string>
+    <string name="class_filter">Class</string>
+    <string name="type_filter">Type</string>
+    <string name="transport_type_filter">Transport Type</string>
+    <string name="meals_filter">Meals</string>
+    <string name="reset_filter">reset</string>
+    <string name="stars_filter">Stars</string>
+    <string name="person_per_room_filter">Person per room</string>
+
+    <!-- End -->
+    <string name="confirm">Confirm</string>
+    <string name="top_hotels">Top Hotels</string>
+    <string name="see_all">see all</string>
+    <string name="top_trips">Top Trips</string>
+    <string name="top_packages">Top Packages</string>
+    <string name="top_transports">Top Transports</string>
+
+
+    <!-- FireBase Errors-->
+    <string name="error_login_custom_token">The custom token format is incorrect. Please check the documentation.</string>
+    <string name="error_login_custom_token_mismatch">The custom token corresponds to a different audience.</string>
+    <string name="error_login_credential_malformed_or_expired">The supplied auth credential is malformed or has expired.</string>
+    <string name="error_login_invalid_email">Invalid Email.</string>
+    <string name="error_login_wrong_password">The password is invalid.</string>
+    <string name="error_login_user_mismatch">The supplied credentials do not correspond to the previously signed-in user.</string>
+    <string name="error_login_requires_recent_login">This operation is sensitive and requires recent authentication. Log in again before retrying this request.</string>
+    <string name="error_login_accounts_exits_with_different_credential">An account already exists with the same email address but different sign-in credentials. Sign in using a provider associated with this email address.</string>
+    <string name="error_login_email_already_in_use">The email address is already in use by another account.</string>
+    <string name="error_login_credential_already_in_use">This credential is already associated with a different user account.</string>
+    <string name="error_login_user_disabled">The user account has been disabled by an administrator.</string>
+    <string name="error_login_user_not_found">There is no user record corresponding to this identifier. The user may have been deleted.</string>
+    <string name="error_login_operation_not_allowed">This operation is not allowed. You must enable this service in the console.</string>
+    <string name="error_login_password_is_weak">The given password is invalid.</string>
+    <string name="error_login_user_token_expired">The user\'s credential is no longer valid. The user must sign in again</string>
+    <string name="error_login_invalid_user_token">The user\'s credential is no longer valid. The user must sign in again.</string>
+    <string name="justpic">JustPic</string>
+    <string name="popular_hotels">Popular Hotels</string>
+    <string name="explore_our_curated_trips">Explore Our Curated Trips</string>
+    <string name="all_inclusive_packages">All-Inclusive Packages</string>
+    <string name="forgot_your_password">Forgot Your Password?</string>
+    <string name="phone_number_required">Phone number required</string>
+    <string name="Account_Deletion_Confirmation">Account Deletion Confirmation</string>
+    <string name="Session_Timeout">Session Timeout</string>
+    <string name="re_authenticate">It looks like your session has timed out. Re-Authenticate to regain access.</string>
+    <string name="check_inbox">Enter your email address, and we\'ll \n send you a link to reset your \n password.</string>
+    <string name="phone_verify_needed">Please enter your phone number to proceed. It is required for verification and communication purposes.</string>
+    <string name="delete_verify_needed">To delete your account, we need to verify your identity for security purposes. Please enter your password. This process ensures your account and data are securely removed.</string>
+    <!-- END-->
+    <string name="facebook_app_id">924730242951249</string>
+    <string name="fb_login_protocol_scheme">fb924730242951249</string>
+    <string name="facebook_client_token">eb428d8296a179cb8c0e5fa4500e47ee</string>
+    <string name="get_started">Get Started</string>
+    <string name="start_des">Experience the world with premium \n planning tools designed for the modern \n traveler.</string>
+    <string name="start_title_2">next journey.</string>
+    <string name="start_title_1">Discover your</string>
+    <string name="signin_to_access_your_premium_itinerary">Signin to access your premium itinerary</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="back_to_sign_in">Back to Sign in</string>
+    <string name="travelio">TRAVELIO</string>
+    <string name="travel_concierge">TRAVEL CONCIERGE</string>
+    <string name="hotels_amp_resorts"><![CDATA[Hotels & Resorts]]></string>
+    <string name="reservation_requests">Reservation Requests</string>
+    <string name="edit_profile1">Edit Profile</string>
+    <string name="member_space">MEMBER SPACE</string>
+    <string name="elite_transport">Elite Transport</string>
+    <string name="featured_trips">Featured Trips</string>
+    <string name="viewall">ViewAll</string>
+    <string name="featured_transportation">Featured Transportation</string>
+    <string name="featured_hotels">Featured Hotels</string>
+    <string name="from">From</string>
+    <string name="depart">DEPART</string>
+    <string name="duration">Duration</string>
+    <string name="book_flight">Book Flight</string>
+    <string name="view_deal">View Deal</string>
+    <string name="per_night">PER NIGHT</string>
+    <string name="about_the_experience">About the Experience</string>
+    <string name="exclusive_amenities">Exclusive Amenities</string>
+    <string name="top_experiences">Top Experiences</string>
+    <string name="total_price">Total Price</string>
+    <string name="reserve">Reserve</string>
+    <string name="confirm_amp_pay"><![CDATA[Confirm & Pay]]></string>
+    <string name="total_amount">TOTAL AMOUNT</string>
+    <string name="guests">Guests</string>
+    <string name="_2">2</string>
+    <string name="my_booking">My Booking</string>
+    <string name="booking_confirmed">Booking Confirmed!</string>
+    <string name="booking_confirmed_msg">Your reservation has been placed successfully.</string>
+    <string name="done">Done</string>
+
+    <!-- Error states -->
+    <string name="network_error">No Internet Connection</string>
+    <string name="network_error_desc">Please check your connection\nand try again.</string>
+    <string name="retry">Retry</string>
+
+</resources>

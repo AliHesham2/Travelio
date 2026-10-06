@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="@color/trans_hor_line_plan"
+        android:centerColor="@color/trans_hor_line_center_color_plan"
+        android:endColor="@color/trans_hor_line_plan"
+        />
+
+</shape>

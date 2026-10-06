@@ -1,0 +1,140 @@
+plugins {
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.kotlin.android)
+    id ("androidx.navigation.safeargs.kotlin")
+    id ("com.google.dagger.hilt.android")
+    id ("kotlin-kapt")
+    id ("kotlin-parcelize")
+    alias(libs.plugins.google.gms.google.services)
+}
+
+def keystoreProperties = new Properties()
+keystoreProperties.load(new FileInputStream(rootProject.file("local.properties")))
+
+android {
+    namespace 'com.aly.travelio'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId "com.aly.travelio"
+        minSdk 25
+        targetSdk 36
+        versionCode 7
+        versionName "1.1.5"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    signingConfigs {
+        debug {
+            // Default debug keystore provided by Android Studio
+            storeFile file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+        }
+        release {
+            // Replace with your release keystore details
+            storeFile file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+
+        }
+    }
+
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+        }
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    kotlinOptions {
+        jvmTarget = '11'
+    }
+    buildFeatures {
+        dataBinding true
+    }
+}
+
+dependencies {
+    //default
+    implementation libs.androidx.core.ktx
+    implementation libs.androidx.appcompat
+    implementation libs.material
+    implementation libs.androidx.activity
+    implementation libs.androidx.constraintlayout
+
+    //Firebase
+    implementation libs.firebase.firestore
+    implementation(libs.play.services.auth)
+    implementation(libs.androidx.credentials)
+    implementation libs.googleid
+
+    //splash
+    implementation libs.androidx.core.splashscreen
+
+    //hilt
+    implementation libs.hilt.android
+    implementation libs.firebase.auth
+    implementation libs.androidx.navigation.fragment.ktx
+    implementation libs.androidx.navigation.ui.ktx
+    implementation libs.navigation.fragment.ktx
+    implementation libs.navigation.ui.ktx
+    kapt libs.hilt.compiler
+
+    //retrofit
+    implementation libs.retrofit
+    implementation libs.converter.moshi
+    implementation libs.okhttp
+
+    //Gson
+    implementation libs.gson
+
+    //NavComp
+    implementation libs.androidx.navigation.fragment
+    implementation libs.androidx.navigation.ui
+
+
+    //ROOM
+    implementation libs.androidx.room.runtime
+    annotationProcessor libs.androidx.room.compiler
+
+    //glide
+    implementation libs.glide
+    implementation libs.androidx.legacy.support.v4
+
+    // moshi
+    implementation libs.moshi
+    implementation libs.moshi.kotlin
+
+
+    //phoneNumberChecker
+    implementation libs.libphonenumber
+
+    //dataStore
+    implementation libs.androidx.datastore.preferences
+
+    //shimmer
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+
+    //test
+    testImplementation libs.junit
+    androidTestImplementation libs.androidx.junit
+    androidTestImplementation libs.androidx.espresso.core
+}
+// Allow references to generated code
+kapt {
+    correctErrorTypes true
+}

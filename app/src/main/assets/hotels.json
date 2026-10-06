@@ -1,0 +1,445 @@
+[
+  {
+    "id": "h1",
+    "title": "Paris Grand Hotel",
+    "description": "Experience unparalleled luxury at the Paris Grand Hotel, perfectly situated in the heart of the city of lights. Enjoy breathtaking views of the Eiffel Tower from your private balcony, indulge in world-class culinary masterpieces at our Michelin-starred restaurant, and unwind in our expansive spa. Perfect for both romantic getaways and unforgettable family vacations.",
+    "location": "Paris",
+    "locationLowercase": "paris",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80",
+        "isPrimary": true
+      }
+    ],
+    "pricePerNight": 250.0,
+    "guestsNumber": 2,
+    "rate": 4.5,
+    "badge": "Top Rated",
+    "amenities": [
+      {
+        "title": "Free WiFi",
+        "icon": "https://cdn-icons-png.flaticon.com/128/93/93158.png"
+      },
+      {
+        "title": "Pool",
+        "icon": "https://cdn-icons-png.flaticon.com/128/3163/3163478.png"
+      }
+    ],
+    "isFeatured": true,
+    "createdAt": 1678886400000
+  },
+  {
+    "id": "h2",
+    "title": "London Boutique Hotel",
+    "description": "A cozy boutique hotel carefully designed for your comfort and situated in the vibrant downtown area of London. We offer a personalized experience with bespoke furnishings, complimentary afternoon tea, and a serene ambiance that lets you escape the city's hustle and bustle. An absolute sanctuary right next to London's best theaters and museums.",
+    "location": "London",
+    "locationLowercase": "london",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=600&q=80",
+        "isPrimary": true
+      }
+    ],
+    "pricePerNight": 180.0,
+    "guestsNumber": 2,
+    "rate": 4.2,
+    "badge": null,
+    "amenities": [
+      {
+        "title": "Spa",
+        "icon": "https://cdn-icons-png.flaticon.com/128/2996/2996195.png"
+      }
+    ],
+    "isFeatured": false,
+    "createdAt": 1678886400000
+  },
+  {
+    "id": "h3",
+    "title": "Tokyo Skytree Resort",
+    "description": "Breathtaking views from our premium suites await you at Tokyo Skytree Resort. Immerse yourself in authentic Japanese culture with high-tech amenities, traditional futon options, and a rooftop onsen overlooking the vibrant neon skyline. We offer exclusive guided tours of the surrounding districts and top-tier fitness facilities for your ultimate wellness journey.",
+    "location": "Tokyo",
+    "locationLowercase": "tokyo",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80",
+        "isPrimary": true
+      }
+    ],
+    "pricePerNight": 320.0,
+    "guestsNumber": 4,
+    "rate": 4.8,
+    "badge": "Bestseller",
+    "amenities": [
+      {
+        "title": "Gym",
+        "icon": "https://cdn-icons-png.flaticon.com/128/2964/2964514.png"
+      },
+      {
+        "title": "Restaurant",
+        "icon": "https://cdn-icons-png.flaticon.com/128/3304/3304493.png"
+      }
+    ],
+    "isFeatured": true,
+    "createdAt": 1678886400000
+  },
+  {
+    "id": "h4",
+    "title": "New York Times Square Inn",
+    "description": "Right in the heart of NYC, step into the action from the New York Times Square Inn. With Broadway theaters mere steps away, premium soundproofed rooms ensuring a quiet night's sleep, and 24/7 room service offering iconic NY deli classics, this is your ultimate urban basecamp. Enjoy panoramic floor-to-ceiling windows showing off the spectacular city grid.",
+    "location": "New York",
+    "locationLowercase": "new york",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80",
+        "isPrimary": true
+      }
+    ],
+    "pricePerNight": 400.0,
+    "guestsNumber": 2,
+    "rate": 4.6,
+    "badge": "Top Rated",
+    "amenities": [],
+    "isFeatured": true,
+    "createdAt": 1678886400000
+  },
+  {
+    "id": "h5",
+    "title": "Dubai Marina Hotel",
+    "description": "Luxury redefined in exactly the way you'd expect from the premier destination of Dubai. Enjoy exclusive access to pristine private beaches, dedicated butler service, and sprawling suites that redefine opulence. Sail out directly from our private marina or shop till you drop at the nearby luxury boutiques.",
+    "location": "Dubai",
+    "locationLowercase": "dubai",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=600&q=80",
+        "isPrimary": true
+      }
+    ],
+    "pricePerNight": 500.0,
+    "guestsNumber": 2,
+    "rate": 4.9,
+    "badge": "Bestseller",
+    "amenities": [],
+    "isFeatured": true,
+    "createdAt": 1678886400000
+  },
+  {
+    "id": "h6",
+    "title": "Rome Classic Inn",
+    "description": "Step into history with a stay at the Rome Classic Inn, a meticulously restored 18th-century palazzo. Enjoy complimentary wine tastings in our ancient cellar, marvel at the authentic frescoes adorning the ceilings, and take a short, picturesque stroll to the Colosseum. Your perfect deeply cultural Italian getaway awaits.",
+    "location": "Rome",
+    "locationLowercase": "rome",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=600&q=80",
+        "isPrimary": true
+      }
+    ],
+    "pricePerNight": 150.0,
+    "guestsNumber": 2,
+    "rate": 4.1,
+    "badge": null,
+    "amenities": [],
+    "isFeatured": false,
+    "createdAt": 1678886400000
+  },
+  {
+    "id": "h7",
+    "title": "Bali Beach Resort",
+    "description": "Welcome to your personal tropical paradise hidden away in the spectacular landscapes of Bali. Wake up to the gentle sound of crashing waves, practice yoga with our resident masters in the tranquil forest pavilion, and feast on the freshest local seafood available. Unplug and reconnect with nature in pure comfort.",
+    "location": "Bali",
+    "locationLowercase": "bali",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80",
+        "isPrimary": true
+      }
+    ],
+    "pricePerNight": 220.0,
+    "guestsNumber": 4,
+    "rate": 4.7,
+    "badge": "Top Rated",
+    "amenities": [],
+    "isFeatured": true,
+    "createdAt": 1678886400000
+  },
+  {
+    "id": "h8",
+    "title": "Cairo Pyramids View",
+    "description": "Wake up to the awe-inspiring pyramids standing tall right outside your window. Experience authentic Egyptian hospitality, savor traditional Middle Eastern delicacies at our panoramic terrace, and book exclusive archaeological tours straight from our concierge. An unforgettable immersion into the ancient world.",
+    "location": "Cairo",
+    "locationLowercase": "cairo",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=600&q=80",
+        "isPrimary": true
+      }
+    ],
+    "pricePerNight": 130.0,
+    "guestsNumber": 2,
+    "rate": 4.3,
+    "badge": null,
+    "amenities": [],
+    "isFeatured": false,
+    "createdAt": 1678886400000
+  },
+  {
+    "id": "h9",
+    "title": "Maldives Water Villa",
+    "description": "Stay in an exclusive overwater bungalow and dive straight into the crystal-clear lagoon beneath you. Relish in ultimate privacy, enjoy in-villa dining delivered by boat, and marvel at the breathtaking marine life through your private glass floor. This is the pinnacle of romantic retreats and island luxury.",
+    "location": "Maldives",
+    "locationLowercase": "maldives",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80",
+        "isPrimary": true
+      }
+    ],
+    "pricePerNight": 800.0,
+    "guestsNumber": 2,
+    "rate": 5.0,
+    "badge": "Bestseller",
+    "amenities": [],
+    "isFeatured": true,
+    "createdAt": 1678886400000
+  },
+  {
+    "id": "h10",
+    "title": "Sydney Harbor Suites",
+    "description": "Gaze out at the amazing view of the iconic Sydney Opera house right from your spacious, elegantly appointed suite. Located a short walk from vibrant cafes, beautiful botanical gardens, and excellent ferry connections. Perfect for business travelers and vacationers seeking luxury at the heart of the harbor.",
+    "location": "Sydney",
+    "locationLowercase": "sydney",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80",
+        "isPrimary": true
+      }
+    ],
+    "pricePerNight": 280.0,
+    "guestsNumber": 2,
+    "rate": 4.6,
+    "badge": null,
+    "amenities": [],
+    "isFeatured": false,
+    "createdAt": 1678886400000
+  },
+  {
+    "id": "h11",
+    "title": "Paris Budget Stay",
+    "description": "A remarkably cheap but meticulously clean lodging solution for smart travelers visiting the majestic French capital. Located securely next to major transit lines, allowing you quick access to all major attractions while keeping your spending lean. Our friendly staff is always ready to share their best local secrets.",
+    "location": "Paris",
+    "locationLowercase": "paris",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=600&q=80",
+        "isPrimary": true
+      }
+    ],
+    "pricePerNight": 80.0,
+    "guestsNumber": 1,
+    "rate": 3.8,
+    "badge": null,
+    "amenities": [],
+    "isFeatured": false,
+    "createdAt": 1678886400000
+  },
+  {
+    "id": "h12",
+    "title": "London Ritz Hotel",
+    "description": "Absolute royalty and unmatched prestige describe every aspect of your stay at this legendary establishment. Featuring immaculate white-glove service, lavish antique furnishings, and an unrivaled central location. Prepare to be pampered like endless royalty from the moment our doorman greets you.",
+    "location": "London",
+    "locationLowercase": "london",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1486299267070-83823f5448dd?auto=format&fit=crop&w=600&q=80",
+        "isPrimary": true
+      }
+    ],
+    "pricePerNight": 900.0,
+    "guestsNumber": 3,
+    "rate": 4.9,
+    "badge": "Top Rated",
+    "amenities": [],
+    "isFeatured": true,
+    "createdAt": 1678886400000
+  },
+  {
+    "id": "h13",
+    "title": "Tokyo Capsule Stay",
+    "description": "An experience like no other providing hyper-efficient, uniquely Japanese capsule accommodation for maximum convenience. Each pod is meticulously equipped with ambient lighting, charging stations, and premium bedding for a deep sleep. Highly recommended for solo tech-forward travelers seeking an authentic futuristic feel.",
+    "location": "Tokyo",
+    "locationLowercase": "tokyo",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80",
+        "isPrimary": true
+      }
+    ],
+    "pricePerNight": 50.0,
+    "guestsNumber": 1,
+    "rate": 4.0,
+    "badge": null,
+    "amenities": [],
+    "isFeatured": false,
+    "createdAt": 1678886400000
+  },
+  {
+    "id": "h14",
+    "title": "New York Riverside",
+    "description": "Find peaceful tranquility in NY while enjoying sweeping, unblocked views of the iconic Hudson River. The suites here offer large, quiet spaces rarely found in the bustling city, complete with kitchenette facilities for your convenience. An oasis of calm for the discerning traveler.",
+    "location": "New York",
+    "locationLowercase": "new york",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=600&q=80",
+        "isPrimary": true
+      }
+    ],
+    "pricePerNight": 210.0,
+    "guestsNumber": 2,
+    "rate": 4.2,
+    "badge": null,
+    "amenities": [],
+    "isFeatured": false,
+    "createdAt": 1678886400000
+  },
+  {
+    "id": "h15",
+    "title": "Dubai Desert Retreat",
+    "description": "Stay deeply nestled in the stunning dunes and experience the timeless magic of the majestic Arabian desert. Take part in guided camel treks, enjoy exclusive stargazing with leading astronomers, and sleep in ultra-luxurious, climate-controlled Bedouin-style tents. The definitive high-end desert adventure.",
+    "location": "Dubai",
+    "locationLowercase": "dubai",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?auto=format&fit=crop&w=600&q=80",
+        "isPrimary": true
+      }
+    ],
+    "pricePerNight": 600.0,
+    "guestsNumber": 4,
+    "rate": 4.8,
+    "badge": "Top Rated",
+    "amenities": [],
+    "isFeatured": true,
+    "createdAt": 1678886400000
+  },
+  {
+    "id": "h16",
+    "title": "Rome Budget Hostel",
+    "description": "Stay for less while being immersed in a lively, vibrant, and incredibly social atmosphere that backpackers absolutely love. We offer organized communal dinners featuring authentic pasta dishes, nightly pub crawls, and highly knowledgeable staff. Perfect for those looking to conquer Italy on a budget.",
+    "location": "Rome",
+    "locationLowercase": "rome",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80",
+        "isPrimary": true
+      }
+    ],
+    "pricePerNight": 35.0,
+    "guestsNumber": 1,
+    "rate": 3.9,
+    "badge": null,
+    "amenities": [],
+    "isFeatured": false,
+    "createdAt": 1678886400000
+  },
+  {
+    "id": "h17",
+    "title": "Bali Forest Resort",
+    "description": "Nature all around you as you settle into our eco-friendly, sustainable treehouse villas seamlessly integrated into the dense jungle. Spend your days observing exotic wildlife from your balcony and cooling off in the natural spring-fed infinity pool. Ideal for nature lovers seeking a tranquil retreat.",
+    "location": "Bali",
+    "locationLowercase": "bali",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=600&q=80",
+        "isPrimary": true
+      }
+    ],
+    "pricePerNight": 190.0,
+    "guestsNumber": 2,
+    "rate": 4.5,
+    "badge": null,
+    "amenities": [],
+    "isFeatured": false,
+    "createdAt": 1678886400000
+  },
+  {
+    "id": "h18",
+    "title": "Cairo Downtown Stay",
+    "description": "Live exactly like a local right at the vibrant, energetic core of Cairo's bustling street markets and coffee shop culture. Featuring uniquely decorated rooms reflecting modern Egyptian artistry and a terrace overlooking the lively streets below. It is simply the ultimate spot for true cultural immersion.",
+    "location": "Cairo",
+    "locationLowercase": "cairo",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=600&q=80",
+        "isPrimary": true
+      }
+    ],
+    "pricePerNight": 75.0,
+    "guestsNumber": 2,
+    "rate": 4.1,
+    "badge": null,
+    "amenities": [],
+    "isFeatured": false,
+    "createdAt": 1678886400000
+  },
+  {
+    "id": "h19",
+    "title": "Maldives Seaview",
+    "description": "Enjoy direct, private beach access from your spacious, luminous suite that perfectly blends into the dazzling natural seascape. Featuring a dedicated personal concierge, daily complimentary snorkeling excursions to thriving coral reefs, and an exquisite open-air dining experience. Unwind in true beachfront style.",
+    "location": "Maldives",
+    "locationLowercase": "maldives",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80",
+        "isPrimary": true
+      }
+    ],
+    "pricePerNight": 310.0,
+    "guestsNumber": 2,
+    "rate": 4.7,
+    "badge": "Bestseller",
+    "amenities": [],
+    "isFeatured": true,
+    "createdAt": 1678886400000
+  },
+  {
+    "id": "h20",
+    "title": "Sydney Sunset Resort",
+    "description": "Experience perfect, awe-inspiring sunsets daily from this premier resort positioned right on a spectacular coastal bluff. We proudly offer numerous high-end amenities including multiple saltwater pools, acclaimed fine dining venues, and comprehensive spa services. An unforgettable Australian coastal getaway.",
+    "location": "Sydney",
+    "locationLowercase": "sydney",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=600&q=80",
+        "isPrimary": true
+      }
+    ],
+    "pricePerNight": 400.0,
+    "guestsNumber": 4,
+    "rate": 4.8,
+    "badge": "Top Rated",
+    "amenities": [],
+    "isFeatured": true,
+    "createdAt": 1678886400000
+  },
+  {
+    "id": "h21",
+    "title": "Paris Romantic Suites",
+    "description": "Designed ideally for couples seeking a memorable escape, offering unparalleled charm right in the city of love. Expect delicate rose petals upon arrival, stunning vintage French chateau decor, and a chilled bottle of champagne waiting in your room. An enchanting start to a deeply romantic vacation.",
+    "location": "Paris",
+    "locationLowercase": "paris",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80",
+        "isPrimary": true
+      }
+    ],
+    "pricePerNight": 500.0,
+    "guestsNumber": 2,
+    "rate": 4.9,
+    "badge": "Top Rated",
+    "amenities": [],
+    "isFeatured": true,
+    "createdAt": 1678886400000
+  }
+]

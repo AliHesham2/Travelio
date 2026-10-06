@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="trans_duration">#33000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="out_color">#F87171</color>
+    <color name="button_stroke">#4DFFFFFF</color>
+    <color name="line">#1AFFFFFF</color>
+    <color name="main_bg">#020412</color>
+    <color name="main_bg_1">#33020412</color>
+    <color name="text_color_1">#22D3EE</color>
+    <color name="text_color_2">#3B82F6</color>
+    <color name="des_text_color">#CBD5E1</color>
+    <color name="des_text_color_2">#94A3B8</color>
+    <color name="start_over_lay">#051E3A8A</color>
+    <color name="end_over_lay">#331E3A8A</color>
+    <color name="dialog_color_1">#1AFFFFFF</color> <!-- 10% -->
+    <color name="dialog_color">#33FFFFFF</color> <!-- 20% -->
+    <color name="dialog_color_2">#0DFFFFFF</color> <!-- 5% -->
+    <color name="dialog_color_3">#08FFFFFF</color> <!-- 3% -->
+    <color name="drawer">#E6FFFFFF</color> <!-- 3% -->
+    <color name="dialog_hint_color">#03475569</color> <!-- 3% -->
+    <color name="out">#1AEF4444</color> <!-- 3% -->
+    <color name="out_stroke">#33EF4444</color> <!-- 3% -->
+    <color name="hint">#64748B</color>
+
+    <color name="card_1">#B31E293B</color>
+    <color name="card_2">#E60F172A</color>
+
+
+
+    <color name="trans_card_plan">#1AA855F7</color>
+    <color name="trans_card_plan_stroke">#33A855F7</color>
+
+    <color name="trans_card_bus_boat">#1A06B6D4</color>
+    <color name="trans_card_bus_boat_stroke">#3306B6D4</color>
+
+    <color name="trans_card_car">#1A3B82F6</color>
+    <color name="trans_card_car_stroke">#333B82F6</color>
+
+    <color name="trans_card_plan_text">#D8B4FE</color>
+    <color name="trans_card_plan_icon">#C084FC</color>
+    <color name="trans_hor_line_plan">#00A855F7</color>
+    <color name="trans_hor_line_center_color_plan">#66A855F7</color>
+
+    <color name="trans_card_boat_bus_text">#67E8F9</color>
+    <color name="trans_card_bus_boat_icon">#22D3EE</color>
+    <color name="trans_hor_line_boat_bus">#0006B6D4</color>
+    <color name="trans_hor_line_center_color_boat_bus">#6606B6D4</color>
+
+
+    <color name="trans_card_car_text">#93C5FD</color>
+    <color name="trans_card_car_icon">#60A5FA</color>
+    <color name="trans_hor_line_car">#003B82F6</color>
+    <color name="trans_hor_line_center_color_car">#663B82F6</color>
+
+
+    <color name="hotel_card_stroke">#1E293B</color>
+    <color name="hotel_card">#800F172A</color>
+    <color name="hotel_price_text">#0D6CF2</color>
+    <color name="hotel_rate">#66000000</color>
+
+
+    <color name="true_icon">#2979FF</color>
+    <color name="confirm_dialog">#990B1121</color>
+
+
+    <color name="selector">#CC06B6D4</color>
+    <color name="selector1">#CC2563EB</color>
+
+
+
+
+    <color name="back_detail">#99101722</color>
+
+    <color name="location_location">#330D6CF2</color> <!-- 20% -->
+    <color name="location_location_detail">#4D0D6CF2</color>  <!-- 30% -->
+
+    <!-- Miscellaneous -->
+    <color name="light_green">#22D3EE</color>
+    <color name="dark_green">#22D3EE</color>
+
+
+
+
+
+
+</resources>

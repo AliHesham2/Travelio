@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dashboard_nav"
+    app:startDestination="@id/dashBoardFragment">
+
+    <!-- ══ DASHBOARD ═══════════════════════════════════════════════════════════ -->
+    <fragment
+        android:id="@+id/dashBoardFragment"
+        android:name="com.aly.travelio.ui.dashboard.main.DashBoardFragment"
+        android:label="DashBoardFragment"
+        tools:layout="@layout/fragment_dash_board">
+
+        <action
+            android:id="@+id/action_dashBoardFragment_to_hotelsFragment"
+            app:destination="@id/hotelsFragment"
+            app:enterAnim="@anim/nav_enter"
+            app:exitAnim="@anim/nav_exit"
+            app:popEnterAnim="@anim/nav_pop_enter"
+            app:popExitAnim="@anim/nav_pop_exit" />
+        <action
+            android:id="@+id/action_dashBoardFragment_to_transportFragment"
+            app:destination="@id/transportFragment"
+            app:enterAnim="@anim/nav_enter"
+            app:exitAnim="@anim/nav_exit"
+            app:popEnterAnim="@anim/nav_pop_enter"
+            app:popExitAnim="@anim/nav_pop_exit" />
+        <action
+            android:id="@+id/action_dashBoardFragment_to_tripsFragment"
+            app:destination="@id/tripsFragment"
+            app:enterAnim="@anim/nav_enter"
+            app:exitAnim="@anim/nav_exit"
+            app:popEnterAnim="@anim/nav_pop_enter"
+            app:popExitAnim="@anim/nav_pop_exit" />
+        <action
+            android:id="@+id/action_dashBoardFragment_to_editUserFragment"
+            app:destination="@id/editUserFragment"
+            app:enterAnim="@anim/nav_enter"
+            app:exitAnim="@anim/nav_exit"
+            app:popEnterAnim="@anim/nav_pop_enter"
+            app:popExitAnim="@anim/nav_pop_exit" />
+        <action
+            android:id="@+id/action_dashBoardFragment_to_hotelDetailsFragment"
+            app:destination="@id/hotelDetailsFragment" />
+        <action
+            android:id="@+id/action_dashBoardFragment_to_tripsDetailsFragment"
+            app:destination="@id/tripsDetailsFragment" />
+        <action
+            android:id="@+id/action_dashBoardFragment_to_mainOrderFragment"
+            app:destination="@id/mainOrderFragment"
+            app:enterAnim="@anim/nav_enter"
+            app:exitAnim="@anim/nav_exit"
+            app:popEnterAnim="@anim/nav_pop_enter"
+            app:popExitAnim="@anim/nav_pop_exit" />
+    </fragment>
+
+    <!-- ══ HOTELS ══════════════════════════════════════════════════════════════ -->
+    <fragment
+        android:id="@+id/hotelsFragment"
+        android:name="com.aly.travelio.ui.dashboard.hotels.HotelsFragment"
+        android:label="HotelsFragment"
+        tools:layout="@layout/fragment_hotels">
+        <action
+            android:id="@+id/action_hotelsFragment_to_hotelDetailsFragment"
+            app:destination="@id/hotelDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/hotelDetailsFragment"
+        android:name="com.aly.travelio.ui.dashboard.hotels.HotelDetailsFragment"
+        android:label="HotelDetailsFragment"
+        tools:layout="@layout/fragment_details">
+        <argument
+            android:name="hotels"
+            app:argType="com.aly.travelio.model.Hotel" />
+    </fragment>
+
+    <!-- ══ TRANSPORT ════════════════════════════════════════════════════════════ -->
+    <fragment
+        android:id="@+id/transportFragment"
+        android:name="com.aly.travelio.ui.dashboard.transport.TransportFragment"
+        android:label="TransportFragment"
+        tools:layout="@layout/fragment_transport" />
+
+    <!-- ══ TRIPS ════════════════════════════════════════════════════════════════ -->
+    <fragment
+        android:id="@+id/tripsFragment"
+        android:name="com.aly.travelio.ui.dashboard.trips.TripsFragment"
+        android:label="TripsFragment"
+        tools:layout="@layout/fragment_trips">
+        <action
+            android:id="@+id/action_tripsFragment_to_tripsDetailsFragment"
+            app:destination="@id/tripsDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/tripsDetailsFragment"
+        android:name="com.aly.travelio.ui.dashboard.trips.TripsDetailsFragment"
+        android:label="TripsDetailsFragment"
+        tools:layout="@layout/fragment_details">
+        <argument
+            android:name="trips"
+            app:argType="com.aly.travelio.model.Trip" />
+    </fragment>
+
+    <!-- ══ EDIT ACCOUNT ═════════════════════════════════════════════════════════ -->
+    <fragment
+        android:id="@+id/editUserFragment"
+        android:name="com.aly.travelio.ui.user.edit.EditUserFragment"
+        android:label="EditUserFragment"
+        tools:layout="@layout/fragment_edit_user" />
+
+    <!-- ══ ORDERS ════════════════════════════════════════════════════════════════ -->
+    <fragment
+        android:id="@+id/mainOrderFragment"
+        android:name="com.aly.travelio.ui.orders.MainOrderFragment"
+        android:label="MainOrderFragment"
+        tools:layout="@layout/fragment_main_order">
+        <action
+            android:id="@+id/action_mainOrderFragment_to_hotelDetailsFragment"
+            app:destination="@id/hotelDetailsFragment" />
+        <action
+            android:id="@+id/action_mainOrderFragment_to_tripsDetailsFragment"
+            app:destination="@id/tripsDetailsFragment" />
+    </fragment>
+
+</navigation>

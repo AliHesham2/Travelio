@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Shimmer skeleton — mirrors custom_item_trans_main.xml (290dp card) -->
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmerTrans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:shimmer_auto_start="true"
+        app:shimmer_base_color="#1A2744"
+        app:shimmer_highlight_color="#243360"
+        app:shimmer_duration="1000"
+        app:shimmer_direction="left_to_right">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:orientation="horizontal">
+
+            <!-- Card 1 — same background + dimensions as real transport card -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/custom_card_trans_dashboard">
+
+                <!-- Transport icon placeholder -->
+                <View
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/shimmer_line_rounded"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <!-- Price pill -->
+                <View
+                    android:layout_width="80dp"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/shimmer_line_rounded"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <!-- Airport code (large) left -->
+                <View
+                    android:id="@+id/sh_start"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/shimmer_line_rounded"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/sh_icon" />
+
+                <!-- Airport name (small) left -->
+                <View
+                    android:layout_width="80dp"
+                    android:layout_height="10dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/shimmer_line_rounded"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/sh_start" />
+
+                <!-- Airport code (large) right -->
+                <View
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/shimmer_line_rounded"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/sh_price" />
+
+                <!-- Depart + Duration row -->
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/shimmer_line_rounded"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/sh_start_name" />
+
+                <!-- Book button placeholder -->
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/shimmer_line_rounded"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <!-- Anchor IDs -->
+                <View android:id="@+id/sh_icon" android:layout_width="40dp" android:layout_height="40dp"
+                    android:layout_marginStart="16dp" android:layout_marginTop="16dp"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+                <View android:id="@+id/sh_price" android:layout_width="80dp" android:layout_height="38dp"
+                    android:layout_marginTop="16dp" android:layout_marginEnd="16dp"
+                    app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+                <View android:id="@+id/sh_start_name" android:layout_width="80dp" android:layout_height="10dp"
+                    android:layout_marginStart="16dp" android:layout_marginTop="6dp"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/sh_start"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- Card 2 -->
+            <View
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/custom_card_trans_dashboard" />
+
+        </LinearLayout>
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+</layout>
